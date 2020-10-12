@@ -4,8 +4,9 @@ namespace Vipszx\LaravelSoftDeletesTimestamp\Eloquent;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletingScope;
 
-class SoftDeletingTimestampScope
+class SoftDeletingTimestampScope extends SoftDeletingScope
 {
     /**
      * Apply the scope to a given Eloquent query builder.
