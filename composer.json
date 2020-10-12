@@ -1,0 +1,30 @@
+{
+    "name": "vipszx/laravel-soft-deletes-timestamp",
+    "description": "",
+    "keywords": [
+        "laravel-soft-deletes-timestamp"
+    ],
+    "homepage": "https://github.com/vipszx/laravel-soft-deletes-timestamp",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "mark",
+            "email": "635879675@qq.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/contracts": "^6.0",
+        "illuminate/database": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vipszx\\LaravelSoftDeletesTimestamp\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
